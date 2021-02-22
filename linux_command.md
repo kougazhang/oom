@@ -1,12 +1,13 @@
 # 网络相关
-hostname: 主机名, 内网地址
-hostname, 显示机器的主机名
-hostname -I, 显示机器的内网 IP.
++ hostname: 主机名, 内网地址
++ hostname, 显示机器的主机名
++ hostname -I, 显示机器的内网 IP.
 # 进程相关
-screen: 进程守护
+## screen: 进程守护
 todo
 
-supervisor: 进程守护
+## supervisor: 进程守护
+```bash
 // 更新该 job 关于 supervisor 的配置
 supervisorctl update <jobName>
 
@@ -15,14 +16,18 @@ supervisorctl restart <jobName>
 
 // 查看该 job 的状态
 supervisorctl status
-systemd: 进程管理
-启动/重启/停止某服务. 如果启动失败, 看输出的日志进行处理.
+```
+## systemd: 进程管理
+1. 启动/重启/停止某服务. 如果启动失败, 看输出的日志进行处理.
+```bash
 systemctl start/restart/stop xxx.service
+```
 查看当前服务的状态
-
+```bash
 systemctl status xxx.service
+```
 2. 对服务进行开机启动项的控制.
-
+```bash
 # 将服务加入开机自启动
 systemctl enable Service_Name
 
@@ -31,6 +36,7 @@ systemctl disable Service_Name
 
 # 查看服务是否开机自启动
 systemctl is-enabled Service_Name
+```
 文件处理
 readlink: 显示软链接文件完整的路径
 readlink -f <softLinkName>
