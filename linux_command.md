@@ -4,10 +4,61 @@
 + hostname -I, 显示机器的内网 IP.
 
 # 进程相关
-## screen: 进程守护
-todo
 
-## supervisor: 进程守护
+## `&` 的作用
+
+终端执行的程序是 shell 进程的子进程. 
+
+每一个命令行终端都是一个 shell 进程，你在这个终端里执行的程序实际上都是这个 shell 进程分出来的子进程。
+
+**正常情况下shell 会阻塞.**
+
+正常情况下，shell 进程会阻塞，等待子进程退出才重新接收你输入的新的命令。
+
+* `&` 只是让 shell 不再阻塞.
+
+加上&号，只是让 shell 进程不再阻塞，可以继续响应你的新命令。但是无论如何，你如果关掉了这个 shell 命令行端口，依附于它的所有子进程都会退出。
+
+**`(cmd &)` 把 cmd 命令挂载到 `systemd` 下.**
+
+而(cmd &)这样运行命令，则是将cmd命令挂到一个systemd系统守护进程名下，认systemd做爸爸，这样当你退出当前终端时，对于刚才的cmd命令就完全没有影响了。
+
+## nuhup 
+
+```bash
+nohup 命令 > log 位置 2&>1 &
+```
+
+## screen 进程守护
+
+### 单个程序的守护进程
+
+- 创建新的窗口
+
+```bash
+screen -S 窗口名_xxxx
+```
+
+- 进入创建的窗口
+
+```bash
+screen -r 窗口名_xxxx
+```
+
+- 退出窗口，让进程后台运行：
+
+```bash
+ctrl + a + d
+```
+
+### 显示当前所有的守护程序
+
+```bash
+screen -ls
+```
+
+## supervisor 进程守护
+
 ```bash
 // 更新该 job 关于 supervisor 的配置
 supervisorctl update <jobName>
@@ -19,7 +70,7 @@ supervisorctl restart <jobName>
 supervisorctl status
 ```
 
-## systemd: 进程管理
+## systemd 进程管理
 
 1. 启动/重启/停止某服务. 如果启动失败, 看输出的日志进行处理.
 ```bash
