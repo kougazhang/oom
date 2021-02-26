@@ -23,3 +23,10 @@
 
 ### Linux
 * [Linux 常用命令](./linux_command.md)
+
+## 笔记
+
+### 大数据
+
+[大数据笔记](https://github.com/kougazhang/BigData-Notes)
+

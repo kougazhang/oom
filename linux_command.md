@@ -70,6 +70,18 @@ supervisorctl restart <jobName>
 supervisorctl status
 ```
 
+### 常见问题
+
+1. too many files open
+
+除了系统的 `ulimit` , supervisor 也限制了文件打开数, 出现这个异常修改以下两项:
+
+```ini
+[supervisord]
+minfds=102400
+minprocs=20000
+```
+
 ## systemd 进程管理
 
 1. 启动/重启/停止某服务. 如果启动失败, 看输出的日志进行处理.
