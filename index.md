@@ -1,5 +1,3 @@
-> 勿以浮沙筑高塔
-
 ## 联系我
 - 今日头条: [OOM](https://www.toutiao.com/c/user/token/MS4wLjABAAAAbgiAqeYwlb3KjMMaGIAPHcCZhQSz5gh1DPsK9AS6L6Q/)
 - 知乎: [kgzhang](https://www.zhihu.com/people/kougazhang), 可私信.
