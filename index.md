@@ -28,3 +28,7 @@
 
 [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
+## 看过哪些书?
+
++ [Scala School](https://github.com/kougazhang/scala_school)
+
