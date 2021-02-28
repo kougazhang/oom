@@ -55,4 +55,12 @@
 
 ### 读书
 
+**在读**
+
 + [Scala School](https://github.com/kougazhang/scala_school)
+  + 时间: 2021-02-26 至
+
+**已读**
+
++ [与孩子一起学编程](https://book.douban.com/subject/5338024/)
++ 代码大全
