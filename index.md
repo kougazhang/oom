@@ -51,16 +51,21 @@
 
 [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
+[编程原则](https://github.com/kougazhang/program_principle)
+
 ---
 
 ### 读书
 
 **在读**
 
-+ [Scala School](https://github.com/kougazhang/scala_school)
-  + 时间: 2021-02-26 至
++ [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
+  + 时间: 2021-03-02
 
 **已读**
+
++ [Scala School](https://github.com/kougazhang/scala_school)
+  + 时间: 2021-02-26 至 2021-03-02
 
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
