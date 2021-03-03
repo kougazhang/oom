@@ -59,9 +59,9 @@
 
 **在读**
 
-+ [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
++ [The C Programming Language](https://github.com/kougazhang/the_c_programming_language)
 
-**已读**
+**读完**
 
 + [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
 
@@ -70,3 +70,9 @@
 
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
+
+**Deprecation**
+
++ [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
+  + too boring
+
