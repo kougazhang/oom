@@ -59,10 +59,11 @@
 
 **在读**
 
-+ [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
-  + 时间: 2021-03-02
++ [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
 
 **已读**
+
++ [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
 
 + [Scala School](https://github.com/kougazhang/scala_school)
   + 时间: 2021-02-26 至 2021-03-02
