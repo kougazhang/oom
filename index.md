@@ -47,7 +47,7 @@
 
 ### 笔记
 
-[Linux 常用命令](./linux_command.md)
+[Linux](https://github.com/kougazhang/linux)
 
 [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
