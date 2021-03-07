@@ -20,9 +20,20 @@
 
 ### 文章&笔记
 
+*大数据*
+
 + [技术选型：为什么批处理我们却选择了Flink](https://zhuanlan.zhihu.com/p/269484708)
 
+*前端*
+
 + [前端: 如何使用 Chrome 的 Devtool 定位网页加载的性能瓶颈?](https://zhuanlan.zhihu.com/p/266771273)
+
+*Golang*
+
++ [使用 pprof 优化 CPU 跑满的问题](https://zhuanlan.zhihu.com/p/355200328)
++ [使用 pprof 排查 Golang 内存泄露](https://zhuanlan.zhihu.com/p/265080950)
+
+*笔记*
 
 [Linux](https://github.com/kougazhang/linux)
 
