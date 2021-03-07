@@ -15,6 +15,7 @@
 
 + [Flink 在又拍云日志批处理中的实践](http://shangzhibo.tv/watch/10230926)
 + [Chrome 扩展“油猴”脚本开发](http://shangzhibo.tv/watch/10036080)
++ [日志处理项目: Filex](https://github.com/kougazhang/golang/blob/master/filex.md)
 
 ---
 
@@ -61,3 +62,4 @@
 
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
+
