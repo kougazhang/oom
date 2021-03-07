@@ -18,36 +18,15 @@
 
 ---
 
-### 文章
+### 文章&笔记
 
 + [技术选型：为什么批处理我们却选择了Flink](https://zhuanlan.zhihu.com/p/269484708)
 
----
-
-### 随笔
-
-**前端**
-
-* [01:排查网页打开慢的方法有多少种? 我总结了15个](https://zhuanlan.zhihu.com/p/266102548)
-* [02:如何使用 Chrome 的 Devtool 定位网页加载的性能瓶颈?](https://zhuanlan.zhihu.com/p/266771273)
-
-* [油猴脚本 --- 只为更好的交互体验](https://zhuanlan.zhihu.com/p/131610792)
-
-**网络**
-
-* [给我1分钟, 告诉你什么是互联网骨干网?](https://zhuanlan.zhihu.com/p/267130739)
-* [互联网骨干网全面解析](https://zhuanlan.zhihu.com/p/267213062)
-
-**后端**
-
-* [使用 pprof 排查 Golang 内存泄露](https://zhuanlan.zhihu.com/p/265080950)
-* [为什么这段代码没有拦截到 gin String 类型的 response 返回值?](https://zhuanlan.zhihu.com/p/265395083)
-
----
-
-### 笔记
++ [前端: 如何使用 Chrome 的 Devtool 定位网页加载的性能瓶颈?](https://zhuanlan.zhihu.com/p/266771273)
 
 [Linux](https://github.com/kougazhang/linux)
+
+[golang](https://github.com/kougazhang/golang)
 
 [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
@@ -68,8 +47,6 @@
 + [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
 
 + [Scala School](https://github.com/kougazhang/scala_school)
-  + 时间: 2021-02-26 至 2021-03-02
 
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
-
