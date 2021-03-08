@@ -44,6 +44,8 @@
 
 [编程原则](https://github.com/kougazhang/program_principle)
 
+[软件设计](https://github.com/kougazhang/architecture)
+
 ---
 
 ### 读书
@@ -51,8 +53,8 @@
 **在读**
 
 + [The C Programming Language](https://github.com/kougazhang/the_c_programming_language)
-
 + [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
++ [道德经](https://github.com/kougazhang/daodejing)
 
 **读完**
 
@@ -62,4 +64,3 @@
 
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
-
