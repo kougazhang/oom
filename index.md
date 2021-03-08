@@ -44,7 +44,11 @@
 
 [编程原则](https://github.com/kougazhang/program_principle)
 
-[软件设计](https://github.com/kougazhang/architecture)
+[软件架构设计](https://github.com/kougazhang/architecture)
+
+*Job*
+
+[job_note](https://github.com/kougazhang/job_note)
 
 ---
 
