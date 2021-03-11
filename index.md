@@ -46,6 +46,8 @@
 
 [软件架构设计](https://github.com/kougazhang/architecture)
 
+[vim](https://github.com/kougazhang/vim_note)
+
 *Job*
 
 [job_note](https://github.com/kougazhang/job_note)
