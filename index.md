@@ -17,7 +17,7 @@
 
 + [技术选型：为什么批处理我们却选择了Flink](https://zhuanlan.zhihu.com/p/269484708)
 + [Flink 在又拍云日志批处理中的实践](http://shangzhibo.tv/watch/10230926)
-+ [日志处理框架: Filex](https://github.com/kougazhang/golang/blob/master/filex.md)
++ [日志处理框架: FileX](https://github.com/kougazhang/golang/blob/master/filex.md)
 
 *前端*
 
