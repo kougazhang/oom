@@ -43,15 +43,13 @@
 
 [软件架构设计](https://github.com/kougazhang/architecture)
 
+[tools](https://github.com/kougazhang/tools)
+
 [vim](https://github.com/kougazhang/vim_note)
 
 [git](https://github.com/kougazhang/git-tips)
 
-*Job*
-
 [job_note](https://github.com/kougazhang/job_note)
-
-*life*
 
 [life_note](https://github.com/kougazhang/life_note)
 
