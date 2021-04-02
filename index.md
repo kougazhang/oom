@@ -38,6 +38,8 @@
 
 [golang](https://github.com/kougazhang/golang)
 
+[Rust](https://github.com/kougazhang/rust)
+
 [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
 [编程原则](https://github.com/kougazhang/program_principle)
@@ -54,6 +56,8 @@
 
 [life_note](https://github.com/kougazhang/life_note)
 
+[备考非全日制硕士](https://github.com/kougazhang/graduate_exam)
+
 ---
 
 ### 读书
@@ -67,8 +71,17 @@
 **读完**
 
 + [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
-
 + [Scala School](https://github.com/kougazhang/scala_school)
-
 + [与孩子一起学编程](https://book.douban.com/subject/5338024/)
 + 代码大全
+
+---
+
+### LogBook
+
+*不愿随波逐流, 故提笔以记之*
+
+**2021**
+
++ [03-29~04-04](https://github.com/kougazhang/life_note/blob/master/2021/03-29~04-04.md)
+
