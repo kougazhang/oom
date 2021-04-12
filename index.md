@@ -54,13 +54,11 @@
 
 [job_note](https://github.com/kougazhang/job_note)
 
-[life_note](https://github.com/kougazhang/life_note)
-
-[备考非全日制硕士](https://github.com/kougazhang/graduate_exam)
-
 ---
 
-### 读书
+### 读书&考试
+
+![tortoise](./pictures/tortoise.jpg)
 
 **在读**
 
@@ -68,7 +66,12 @@
 + [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
 + [道德经](https://github.com/kougazhang/daodejing)
 
-**读完**
+**在考**
+
++ [非全日制硕士](https://github.com/kougazhang/graduate_exam)
++ [软件设计师](https://github.com/kougazhang/SoftEngineerExam/tree/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88)
+
+**归档**
 
 + [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
 + [Scala School](https://github.com/kougazhang/scala_school)
@@ -83,5 +86,9 @@
 
 **2021**
 
+[life_note](https://github.com/kougazhang/life_note)
+
 + [03-29~04-04](https://github.com/kougazhang/life_note/blob/master/2021/03-29~04-04.md)
++ [04-06~04-11](https://github.com/kougazhang/life_note/blob/master/2021/04-06~04-11.md)
++ [04-12~04-18](https://github.com/kougazhang/life_note/blob/master/2021/04-12~04-18.md)
 
