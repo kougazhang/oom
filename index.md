@@ -1,10 +1,3 @@
-### 联系我
-
-- 知乎: [kgzhang](https://www.zhihu.com/people/kougazhang), 可私信.
-- 微信: Jack04240905
-
----
-
 ### 开源作品
 
 * 油猴脚本: [知乎浏览助手](https://greasyfork.org/en/scripts/400790-%E7%9F%A5%E4%B9%8E%E6%B5%8F%E8%A7%88%E5%8A%A9%E6%89%8B)
@@ -36,11 +29,7 @@
 
 [Linux](https://github.com/kougazhang/linux)
 
-[golang](https://github.com/kougazhang/golang)
-
 [Rust](https://github.com/kougazhang/rust)
-
-[大数据笔记](https://github.com/kougazhang/BigData-Notes)
 
 [编程原则](https://github.com/kougazhang/program_principle)
 
@@ -91,4 +80,48 @@
 + [03-29~04-04](https://github.com/kougazhang/life_note/blob/master/2021/03-29~04-04.md)
 + [04-06~04-11](https://github.com/kougazhang/life_note/blob/master/2021/04-06~04-11.md)
 + [04-12~04-18](https://github.com/kougazhang/life_note/blob/master/2021/04-12~04-18.md)
+
+---
+
+### 生活技能树
+
++ 身体 => 脂肪量在 2021-06-01 前 < 37 斤
++ 意志力
++ 家庭 => 周末做饭洗碗
+
+### 技能树
+
+- **01 计算机基础** =>  [非全日制硕士](https://github.com/kougazhang/graduate_exam) / [软件设计师考试](https://github.com/kougazhang/SoftEngineerExam/tree/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88)
+  - [操作系统](https://github.com/kougazhang/awesome-cs#操作系统)
+  - [计算机网络](https://github.com/kougazhang/awesome-cs#计算机网络) => 网络工程师考试
+  - [算法](https://github.com/kougazhang/awesome-cs#算法)与数据结构 => PAT考试甲级 / PAT考试乙级  / 力扣周赛
+  - 数据库
+    - [数据库基础](https://github.com/kougazhang/awesome-cs#数据库基础) => 数据库工程师考试
+    - [MySQL](https://github.com/kougazhang/awesome-cs#mysql)
+    - [Redis](https://github.com/kougazhang/awesome-cs#redis)
+  - [编译原理](https://github.com/kougazhang/awesome-cs#编译原理)
+- **02 计算机进阶** => 电子信息非全日制研究生
+  - 数学
+    - [微积分（高等数学）](https://github.com/kougazhang/awesome-cs#微积分高等数学)
+    - [线性代数（高等代数）](https://github.com/kougazhang/awesome-cs#线性代数高等代数)
+    - [概率论与数理统计](https://github.com/kougazhang/awesome-cs#概率论与数理统计)
+    - [离散数学（集合论、图论、近世代数等）](https://github.com/kougazhang/awesome-cs#离散数学集合论-图论-近世代数等)
+  - [英语](https://github.com/kougazhang/awesome-cs#英语) => 考研英语 / 英语六级
+- **03 开发语言**
+  - [golang](https://github.com/kougazhang/golang) => Gopher China
+  - [Java 基础](https://github.com/kougazhang/awesome-cs#java-基础)
+  - [并发](https://github.com/kougazhang/awesome-cs#并发)
+  - [JVM](https://github.com/kougazhang/awesome-cs#jvm)
+  - 常用框架
+    - [Spring/SpringBoot](https://github.com/kougazhang/awesome-cs#springspringboot)
+    - [Netty](https://github.com/kougazhang/awesome-cs#netty)
+    - [面试](https://github.com/kougazhang/awesome-cs#面试)
+- **04 亮点/擅长领域**
+  - 分布式
+  - 大数据 => [大数据笔记](https://github.com/kougazhang/BigData-Notes)
+- **05 工程能力**
+  - CI/CD
+  - 监控
+    - Prometheus
+    - Grafana
 
