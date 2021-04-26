@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SkillTree
+title: 技能树
 tagline: 技能树
 permalink: /skillTree.html
 ref: skillTree

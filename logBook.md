@@ -3,7 +3,7 @@ layout: page
 title: LogBook
 tagline: 不愿随波而逝, 故提笔以记之
 permalink: /logBook.html
-ref: logBook
+ref: 日志
 order: 3
 ---
 
