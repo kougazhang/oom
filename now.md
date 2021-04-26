@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Now
+title: 动态
 tagline: 近期动向
 permalink: /now.html
 ref: now

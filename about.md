@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于我
 tagline: 不积跬步无以至千里
 permalink: /about.html
 ref: about
@@ -11,7 +11,9 @@ order: 0
 
 + 油猴脚本: [知乎浏览助手](https://greasyfork.org/en/scripts/400790-%E7%9F%A5%E4%B9%8E%E6%B5%8F%E8%A7%88%E5%8A%A9%E6%89%8B)
 
-### 分享过的文章
+### 公开分享过的文章
+
+*公开分享指: 在组内, 公司内, 线上 OpenTalk 和 线下 OpenTalk*
 
 **👌 大数据**
 

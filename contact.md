@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-tagline: 期待连接更多的朋友
+title: 联系我
+tagline: 非常期待和您成为朋友
 ref: contact
 order: 1
 ---
