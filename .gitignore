@@ -1,2 +1,5 @@
 .idea
 the_way_to_go.md
+_site
+.sass-cache
+Gemfile.lock
