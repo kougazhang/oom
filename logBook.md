@@ -3,10 +3,11 @@ layout: page
 title: LogBook
 tagline: 不愿随波而逝, 故提笔以记之
 permalink: /log-book.html
-ref: now
+ref: log-book
 order: 4
 ---
-
+### Action
++ [新建文章](https://github.com/kougazhang/life_note/new/master/2021)
 ### LogBook
 **Q2**
 + [03-29~04-04](https://github.com/kougazhang/life_note/blob/master/2021/03-29~04-04.md)
