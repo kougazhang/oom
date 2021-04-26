@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Contact
-tagline: Create a contact form and you are good to go
+tagline: 期待连接更多的朋友
 ref: contact
 order: 1
 ---
 
-Jekyll is a great tool to create static sites but with static site, there's no backend to send your data to: that is why you need a third part service.
+现居杭州, 你可以在[知乎](https://www.zhihu.com/people/kougazhang)私信我, 也欢迎直接加我微信.
+![wechat](./pictures/Wechat.jpeg)
 
 [🚀 返回主页]({{ '/' | absolute_url }})

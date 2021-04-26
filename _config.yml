@@ -1,5 +1,5 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+title: 张召的博客
+description: 不愿随波而逝, 故提笔以记之
 show_downloads: true
 
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
