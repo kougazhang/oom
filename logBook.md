@@ -4,7 +4,7 @@ title: LogBook
 tagline: 不愿随波而逝, 故提笔以记之
 permalink: /log-book.html
 ref: log-book
-order: 4
+order: 3
 ---
 ### Action
 + [新建文章](https://github.com/kougazhang/life_note/new/master/2021)
