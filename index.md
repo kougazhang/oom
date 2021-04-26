@@ -1,127 +1,17 @@
-### 开源作品
-
-* 油猴脚本: [知乎浏览助手](https://greasyfork.org/en/scripts/400790-%E7%9F%A5%E4%B9%8E%E6%B5%8F%E8%A7%88%E5%8A%A9%E6%89%8B)
-
+---
+#
+# Here you can change the text shown in the Home page before the Latest Posts section.
+#
+# Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
 ---
 
-### 分享&文章
+Cayman Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
 
-*大数据*
+This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
 
-+ Flink01: [技术选型：为什么批处理我们却选择了Flink](https://zhuanlan.zhihu.com/p/269484708)
-+ Flink02: [Flink 在又拍云日志批处理中的实践](http://shangzhibo.tv/watch/10230926)
-+ Flink03: [Flink日志批处理实践](https://github.com/kougazhang/BigData-Notes/blob/master/notes/Flink%E6%97%A5%E5%BF%97%E6%89%B9%E5%A4%84%E7%90%86%E5%AE%9E%E8%B7%B5.md)
-+ [日志处理框架: FileX](https://github.com/kougazhang/golang/blob/master/filex.md)
+Have a look at the Github page for more information.
 
-*前端*
-
-+ [Chrome 扩展“油猴”脚本开发](http://shangzhibo.tv/watch/10036080)
-+ [前端: 如何使用 Chrome 的 Devtool 定位网页加载的性能瓶颈?](https://zhuanlan.zhihu.com/p/266771273)
-
-*Golang*
-
-+ [使用 pprof 优化 CPU 跑满的问题](https://zhuanlan.zhihu.com/p/355200328)
-+ [使用 pprof 排查 Golang 内存泄露](https://zhuanlan.zhihu.com/p/265080950)
-
----
-
-### 笔记
-
-[Linux](https://github.com/kougazhang/linux)
-
-[Rust](https://github.com/kougazhang/rust)
-
-[编程原则](https://github.com/kougazhang/program_principle)
-
-[软件架构设计](https://github.com/kougazhang/architecture)
-
-[tools](https://github.com/kougazhang/tools)
-
-[vim](https://github.com/kougazhang/vim_note)
-
-[git](https://github.com/kougazhang/git-tips)
-
-[job_note](https://github.com/kougazhang/job_note)
-
----
-
-### 读书&考试
-
-![tortoise](./pictures/tortoise.jpg)
-
-**在读**
-
-+ [The C Programming Language](https://github.com/kougazhang/the_c_programming_language)
-+ [C Primer Plus](https://github.com/kougazhang/c_primer_plus)
-+ [道德经](https://github.com/kougazhang/daodejing)
-
-**在考**
-
-+ [非全日制硕士](https://github.com/kougazhang/graduate_exam)
-+ [软件设计师](https://github.com/kougazhang/SoftEngineerExam/tree/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88)
-
-**归档**
-
-+ [Effective Scala](https://twitter.github.io/effectivescala/index-cn.html)
-+ [Scala School](https://github.com/kougazhang/scala_school)
-+ [与孩子一起学编程](https://book.douban.com/subject/5338024/)
-+ 代码大全
-
----
-
-### LogBook
-
-*不愿随波逐流, 故提笔以记之*
-
-**2021**
-
-[life_note](https://github.com/kougazhang/life_note)
-
-+ [03-29~04-04](https://github.com/kougazhang/life_note/blob/master/2021/03-29~04-04.md)
-+ [04-06~04-11](https://github.com/kougazhang/life_note/blob/master/2021/04-06~04-11.md)
-+ [04-12~04-18](https://github.com/kougazhang/life_note/blob/master/2021/04-12~04-18.md)
-
----
-
-### 生活技能树
-
-+ 身体 => 脂肪量在 2021-06-01 前 < 37 斤
-+ 意志力
-+ 家庭 => 周末做饭洗碗
-
-### 技能树
-
-- **01 计算机基础** =>  [非全日制硕士](https://github.com/kougazhang/graduate_exam) / [软件设计师考试](https://github.com/kougazhang/SoftEngineerExam/tree/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88)
-  - [操作系统](https://github.com/kougazhang/awesome-cs#操作系统)
-  - [计算机网络](https://github.com/kougazhang/awesome-cs#计算机网络) => 网络工程师考试
-  - [算法](https://github.com/kougazhang/awesome-cs#算法)与数据结构 => PAT考试甲级 / PAT考试乙级  / 力扣周赛
-  - 数据库
-    - [数据库基础](https://github.com/kougazhang/awesome-cs#数据库基础) => 数据库工程师考试
-    - [MySQL](https://github.com/kougazhang/awesome-cs#mysql)
-    - [Redis](https://github.com/kougazhang/awesome-cs#redis)
-  - [编译原理](https://github.com/kougazhang/awesome-cs#编译原理)
-- **02 计算机进阶** => 电子信息非全日制研究生
-  - 数学
-    - [微积分（高等数学）](https://github.com/kougazhang/awesome-cs#微积分高等数学)
-    - [线性代数（高等代数）](https://github.com/kougazhang/awesome-cs#线性代数高等代数)
-    - [概率论与数理统计](https://github.com/kougazhang/awesome-cs#概率论与数理统计)
-    - [离散数学（集合论、图论、近世代数等）](https://github.com/kougazhang/awesome-cs#离散数学集合论-图论-近世代数等)
-  - [英语](https://github.com/kougazhang/awesome-cs#英语) => 考研英语 / 英语六级
-- **03 开发语言**
-  - [golang](https://github.com/kougazhang/golang) => Gopher China
-  - [Java 基础](https://github.com/kougazhang/awesome-cs#java-基础)
-  - [并发](https://github.com/kougazhang/awesome-cs#并发)
-  - [JVM](https://github.com/kougazhang/awesome-cs#jvm)
-  - 常用框架
-    - [Spring/SpringBoot](https://github.com/kougazhang/awesome-cs#springspringboot)
-    - [Netty](https://github.com/kougazhang/awesome-cs#netty)
-    - [面试](https://github.com/kougazhang/awesome-cs#面试)
-- **04 亮点/擅长领域**
-  - 分布式
-  - 大数据 => [大数据笔记](https://github.com/kougazhang/BigData-Notes)
-- **05 工程能力**
-  - CI/CD
-  - 监控
-    - Prometheus
-    - Grafana
-
+You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
