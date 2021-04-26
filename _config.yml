@@ -5,6 +5,9 @@ show_downloads: true
 baseurl: "/" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://kougazhang.github.io" # change this to the base hostname & protocol for your site
 
+github:
+  owner_url: https://github.com/kougazhang
+  owner_name: kougazhang
 
 google_analytics: G-G8NG8E6SGC
 
@@ -21,8 +24,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 在新标签页中打开链接
 target-blank:
+  add_css_classes: css-class-one css-class-two
   rel: nofollow
 
 # 导航栏

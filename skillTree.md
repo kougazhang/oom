@@ -13,7 +13,7 @@ order: 4
   - 数据库
     - [数据库基础](https://github.com/kougazhang/awesome-cs) => 数据库工程师考试
     - [MySQL](https://github.com/kougazhang/awesome-cs#mysql)
-    - [Redis](https://github.com/kougazhang/awesome-cs#redis)
+    - [Redis](https://github.com/kougazhang/middleware/blob/master/redis/README.md)
   - [编译原理](https://github.com/kougazhang/awesome-cs)
 - **02 计算机进阶** => 电子信息非全日制研究生
   - 数学
@@ -36,9 +36,12 @@ order: 4
   - 大数据 => [大数据笔记](https://github.com/kougazhang/BigData-Notes)
 - **05 工程能力**
   - CI/CD
+  - [Linux 基础](https://github.com/kougazhang/linux)
   - 监控
     - Prometheus
     - Grafana
+  - 常用中间件
+    - [nsq](https://github.com/kougazhang/middleware/tree/master/message_queue)
     
 ---
 [🚀 返回主页]({{ '/' | absolute_url }})
