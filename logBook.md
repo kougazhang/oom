@@ -1,9 +1,9 @@
 ---
 layout: page
-title: LogBook
+title: 日志
 tagline: 不愿随波而逝, 故提笔以记之
 permalink: /logBook.html
-ref: 日志
+ref: logBook
 order: 3
 ---
 
