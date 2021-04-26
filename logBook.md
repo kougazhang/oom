@@ -2,7 +2,7 @@
 layout: page
 title: LogBook
 tagline: 不愿随波而逝, 故提笔以记之
-permalink: /now.html
+permalink: /log-book.html
 ref: now
 order: 2
 ---
