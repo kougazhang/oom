@@ -15,16 +15,12 @@ cayman-blog:
 
 theme: jekyll-theme-cayman # leave it empty
 
-# social
-author: lorepirri
-image: /thumbnail-jumbo.png
-twitter:
-  username: lorepirri
-
 plugins:
   - jekyll-target-blank
+  - jekyll-feed
+  - jekyll-seo-tag
 
 target-blank:
-    rel: nofollow
+  rel: nofollow
 
 header_page_refs: ['now', 'about', 'contact']
