@@ -32,8 +32,8 @@ order: 4
     - [Netty](https://github.com/kougazhang/awesome-cs#netty)
     - [面试](https://github.com/kougazhang/awesome-cs)
 - **04 亮点/擅长领域**
-  - 分布式
-  - 大数据 => [大数据笔记](https://github.com/kougazhang/BigData-Notes)
+  - [分布式](https://github.com/kougazhang/distribute)
+  - [大数据](https://github.com/kougazhang/BigData-Notes)
 - **05 工程能力**
   - CI/CD
   - [Linux 基础](https://github.com/kougazhang/linux)
