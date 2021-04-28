@@ -22,10 +22,5 @@ order: 3
 **TodoList**
 + [04](https://github.com/kougazhang/life_note/blob/master/2021/TodoList04.md)
 
-### 生活技能树
-+ 身体 => 脂肪量在 2021-06-01 前 < 37 斤
-+ 意志力
-+ 家庭 => 周末做饭洗碗
-
 ---
 [🚀 返回主页]({{ '/' | absolute_url }})
