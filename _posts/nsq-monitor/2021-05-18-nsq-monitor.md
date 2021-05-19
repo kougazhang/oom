@@ -20,7 +20,7 @@ tags: NSQ
 
 及时响应客户需求是我司永远不变的宗旨, 更何况是出了问题呢? 二话不说, 小拍抱起电脑一顿操作猛如虎, 可惜结果不靠谱. 刷新调用链路上的相关服务的日志都查过了, 可惜工单上给出的需要刷新的 URL 却没在日志中查到任务蛛丝马迹. 那问题出在哪呢? 
 
-![nsq-monitor02](../assets/images/nsq-monitor02.png)  
+![nsq-monitor02](nsq-monitor02.png)  
 
 调用链路图又称 "服务连连看", 是你在没有把整条链路刻在脑子里又想了解服务之间关系时的唯一选择. 一时之间没有头绪, 小拍对着调用链路图沉思起来:
 1. 用户成功提交了刷新请求, 说明兄弟部门调用了小拍负责的相关接口是成功的, 那说明没刷新成功的锅在小拍这, 是甩不掉的.
@@ -44,7 +44,7 @@ Prometheus 通过 exporter 去采集第三方服务的数据, 也就是说 NSQ �
 
 Prometheus 的[官方文档](https://prometheus.io/docs/instrumenting/exporters/)上对比较好的 exporter 有官方推荐, 小拍顺着链接找到了官方推荐的 [NSQ exporter](https://github.com/lovoo/nsq_exporter). NSQ exporter 这个项目年久失修, 最近的一次提交已经在 4 年前.
 
-![nsq-monitor03](../assets/images/nsq-monitor03.png)
+![nsq-monitor03](nsq-monitor03.png)
 
 于是乎小拍把这个项目 clone 到本地, 做了一些简单的改造, 使它支持 go mod. [PR 在这里](https://github.com/lovoo/nsq_exporter/pull/29)
 
@@ -56,7 +56,7 @@ NSQ exporter 部署完成后, 接下来的问题是哪些指标需要监控?
 + Timed Out: 处理超时的消息.
 
 Prometheus 建议配置 Grafana 更加直观地查看指标的变动情况, 小拍配置大体的效果如下:
-![nsq-monitor04](../assets/images/nsq-monitor04.png)
+![nsq-monitor04](nsq-monitor04.png)
 + 超时消息对应着 Timed Out 指标
 + 堆积消息对应着 Depth 指标
 + 负载是根据公式 `sum(irate(nsq_topic_message_count{}[5m]))` 生成的. 
