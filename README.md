@@ -37,7 +37,10 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 ### 4. 饮水思源
 大力鸣谢: [Hux Blog](https://github.com/Huxpro/huxpro.github.io)
 
-##### 参考资料
+## 参考资料
 + [jekyll 中文站](http://jekyllcn.com/)
 + 详细: [Jekyll 中的配置和模板语法](https://gist.github.com/biezhi/f88be58ef4ae0f3741bb36ab8daa53c5)
 + 有重点: [using.md](https://github.com/moi-mo/UMaize/blob/master/using.md)
+
+## 发布记录
++ 05-28: 联系方式新增 wechat 
