@@ -52,6 +52,23 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+                <div class="comment">
+                    <div id="container"></div>
+                    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                    <script>
+                        var gitment = new Gitment({
+                            id: '页面 ID', // 可选。默认为 location.href
+                            owner: '53000287',
+                            repo: 'https://github.com/kougazhang/kougazhang.github.io',
+                            oauth: {
+                                client_id: '33b2e5a913ed4e5e5afb',
+                                client_secret: 'fab4c2fb3e089f39ad80e268459a00c37e5acbd7',
+                            },
+                        })
+                        gitment.render('container')
+                    </script>
+                </div>
 
             </div>
 
