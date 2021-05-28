@@ -6,10 +6,12 @@
 + 熟悉 Github 基本操作
 + 了解前端基础知识
 
-### 为什么选择 Jekyll 静态站点生成器
+### 本站为什么选择 Jekyll 静态站点生成器?
 Jekyll 最简单.
 
 Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github Action.
+
+个人不想在本地启动静态博客生成器, 写文章不想使用任何命令, 只想随手写写 markdown, 然后推到 Github 上就大功告成.
 
 ## 如何使用 Github 搭建和本站一模一样的网站?
 
