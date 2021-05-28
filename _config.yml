@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username:     Kougazhangpro
+wechat:  img/wechat.jpeg # wechat picture
 zhihu_username:     kougazhang
 github_username:    kougazhang
 #twitter_username:   Kougazhangpro
