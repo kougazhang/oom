@@ -44,3 +44,4 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 
 ## 发布记录
 + 05-28: 联系方式新增 wechat 
++ 05-28: 使用 gitment 作为留言板. (有 Bug)
