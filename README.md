@@ -7,7 +7,7 @@
 + 了解前端基础知识
 
 ### 非预期读者前置知识
-+ [什么是静态站点生成器?]()
++ [什么是静态站点生成器?](https://kougazhang.github.io/2021/05/28/statistic-web-log/)
 
 ### 本站为什么选择 Jekyll 静态站点生成器?
 Jekyll 最简单.
