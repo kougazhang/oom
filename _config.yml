@@ -103,15 +103,19 @@ page-mathjax: false
 # Friends
 friends: [
 {
-  title: "Life/TodoList",
-  href: "https://github.com/kougazhang/life_note"
+  title: "Private",
+  href: "https://github.com/kougazhang/private"
 },
 {
-  title: "Job",
-  href: "https://github.com/kougazhang/job_note"
+  title: "TodoList",
+  href: "https://github.com/kougazhang/private/blob/master/2021/todoList.md"
 },
 {
   title: "Milestone",
-  href: "https://github.com/kougazhang/life_note/blob/master/milestone.md"
+  href: "https://github.com/kougazhang/private/blob/master/2021/milestone.md"
+},
+{
+  title: "OKR",
+  href: "https://github.com/kougazhang/private/blob/master/2021/okr.md"
 },
 ]
