@@ -40,6 +40,9 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 ### 4. 饮水思源
 大力鸣谢: [Hux Blog](https://github.com/Huxpro/huxpro.github.io)
 
+## 注意点
++ 推送代码后，Github Pages 要延迟几分钟才可能会显示出新内容。
+
 ## 参考资料
 + [jekyll 中文站](http://jekyllcn.com/)
 + 详细: [Jekyll 中的配置和模板语法](https://gist.github.com/biezhi/f88be58ef4ae0f3741bb36ab8daa53c5)
