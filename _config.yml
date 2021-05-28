@@ -102,4 +102,8 @@ page-mathjax: false
 
 # Friends
 friends: [
+{
+  title: "index",
+  href: "https://kougazhang.github.io/2021/05/28/index/"
+}
 ]
