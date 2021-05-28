@@ -30,6 +30,10 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 + _posts, 写文章的地方
 + img, 放图片的地方
 + _includes, 静态博客的 html 模板, 需要具备前端常识再改动.
++ _includes/about/zh.md, 导航栏中的 "ABOUT"
+
+### 4. 饮水思源
+大力鸣谢: [Hux Blog](https://github.com/Huxpro/huxpro.github.io)
 
 ##### 参考资料
 + [jekyll 中文站](http://jekyllcn.com/)
