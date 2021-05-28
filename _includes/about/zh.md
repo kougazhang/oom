@@ -14,13 +14,11 @@ CDN 和日志处理
 + Nginx
 
 ##### 演讲与分享
-
-OpenTalk:
-- [Flink 在又拍云日志批处理中的实践](http://shangzhibo.tv/watch/10230926)
-- [Chrome 扩展“油猴”脚本开发](http://shangzhibo.tv/watch/10036080)
-
-公司官方账号投稿:
-- [为 NSQ 配置监控服务](https://zhuanlan.zhihu.com/p/375765747)
+- OpenTalk:
+    - [Flink 在又拍云日志批处理中的实践](http://shangzhibo.tv/watch/10230926)
+    - [Chrome 扩展“油猴”脚本开发](http://shangzhibo.tv/watch/10036080)
+- 公司官方账号投稿:
+    - [为 NSQ 配置监控服务](https://zhuanlan.zhihu.com/p/375765747)
 
 ##### 开源
 + 油猴脚本: [知乎浏览助手](https://greasyfork.org/en/scripts/400790-%E7%9F%A5%E4%B9%8E%E6%B5%8F%E8%A7%88%E5%8A%A9%E6%89%8B)
