@@ -389,13 +389,28 @@ wc -l, 统计出现的行
 ### crontab: 定时任务
 
 **配置时间**
-crontab 定时的语法很奇怪, 可以到在线网站上进行配置.
+> 推荐到在线网站上验证时间配置
+
+crontab的命令构成为 时间+动作，其时间有分、时、日、月、周五种，操作符有:
++ `*` 取值范围内的所有数字
++ `/` 每过多少个数字
++ `-` 从X到Z
++ `,` 散列数字
 
 **常用命令**
 + 编辑定时任务项: crontab -e
 + 列出当前 crontab 计划: crontab -l
 + 查看执行记录: tail -f /var/log/cron
-+ 查看 crontab 执行任务的日志, 这个不一定会有: tail -f /var/spool/mail/root
++ 查看 crontab 执行任务的日志, 这个不一定会有: tail -f /var/spool/mail/
+
+**crontab 常用配置文件**
+
+我们经常使用的是crontab命令是cron table的简写，它是cron的配置文件，也可以叫它作业列表，我们可以在以下文件夹内找到相关配置文件。
+
++ /var/spool/cron/ 目录下存放的是每个用户包括root的crontab任务，每个任务以创建者的名字命名
++ /etc/crontab 这个文件负责调度各种管理和维护任务。
++ /etc/cron.d/ 这个目录用来存放任何要执行的crontab文件或脚本。
++ 我们还可以把脚本放在/etc/cron.hourly、/etc/cron.daily、/etc/cron.weekly、/etc/cron.monthly目录中，让它每小时/天/星期、月执行一次。
 
 **记录日志**
 程序要自己写日志，便于后期排查问题。
