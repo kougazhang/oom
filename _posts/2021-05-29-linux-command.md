@@ -10,6 +10,9 @@ tags:
   - linux
 ---
 
+## Notice
+除非明确指出，本文命令的执行环节为 Centos7.
+
 ## content
 + [网络](#网络)
 + [进程](#进程)
@@ -385,23 +388,42 @@ wc -l, 统计出现的行
 
 ### crontab: 定时任务
 
-+ crontab 定时的语法很奇怪, 可以到在线网站上进行配置.
+**配置时间**
+crontab 定时的语法很奇怪, 可以到在线网站上进行配置.
+
+**常用命令**
 + 编辑定时任务项: crontab -e
 + 列出当前 crontab 计划: crontab -l
 + 查看执行记录: tail -f /var/log/cron
-+ 查看 crontab 执行任务的日志: tail -f /var/spool/mail/root
++ 查看 crontab 执行任务的日志, 这个不一定会有: tail -f /var/spool/mail/root
 
-**踩坑**
+**记录日志**
+程序要自己写日志，便于后期排查问题。
+
+最简单的方法：
+```shell script
+# 注意 >> 添加符号
+# 2>&1 是要把标准输出和标准错误都统一输出到一个文件.
+* * * * * find $YouPath -type f -mtime +10 -exec rm -f {} \; >> /disk/ssd1/crontab-log 2>&1
+```
+
+**踩坑: 一定要调试**
   
-非系统命令需要写出它的绝对路径.
++ 非系统命令需要写出它的绝对路径.
 
-脚本能运行成功, 不代表在 crontab 下一定会执行成功. 比如 hdfs 这个命令在 shell 下可以正常调用, 但是 crontab 执行时就会抛出找不到该命令之类的异常, 需要写出 hdfs 的绝对路径才能执行成功.
++ 脚本能运行成功, 不代表在 crontab 下一定会执行成功. 
+
+比如 hdfs 这个命令在 shell 下可以正常调用, 但是 crontab 执行时就会抛出找不到该命令之类的异常, 需要写出 hdfs 的绝对路径才能执行成功.
+
+比如 `find $YouPath -type f -mtime +10 -exec rm -f` 在命令行下可以执行，但是在 crontab 中需要加 `\;`, 即：
+```shell script
+* * * * * find $YouPath -type f -mtime +10 -exec rm -f {} \; >> /disk/ssd1/crontab-log 2>&1
+``` 
 
 **排查 crontab 任务没有执行的原因:**
-
 + 查看执行记录: tail -f /var/log/cron
-  + 如果日志显示任务执行了但是没生效, 应该是程序问题, `查看 crontab 执行任务的日志: tail -f /var/spool/mail/root` , 执行日志中应该有具体错误的原因.
-  + 如果日志显示任务根本没执行:
-    + 排查配置是否正确, 可以找个在线网站校验一下.
++ 如果日志显示任务执行了但是没生效, 应该是程序问题, `查看 crontab 执行任务的日志: tail -f /var/spool/mail/root` , 执行日志中应该有具体错误的原因.
++ 如果日志显示任务根本没执行:
+    + 排查时间配置是否正确, 可以找个在线网站校验一下.
     + `ps -ef|grep cron` , 排查 crontab 程序是否正常运行.
-      + `/sbin/service cron start`, centos6 启动 crontab
+    + `/sbin/service cron start`, centos6 启动 crontab
