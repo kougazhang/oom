@@ -181,6 +181,15 @@ systemctl daemon-reload
 
 ---
 
+## 查找文件
+
+### find
++ 查找 $YouPath 路径下 10 天前的文件并删除
+``` 
+# -exec rm -f {} \;, 表示查找到后执行的动作
+find $YouPath -type f -mtime +10 -exec rm -f {} \;
+```
+
 ## 文件处理
 
 ### 文件软链接
