@@ -40,8 +40,14 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 ### 4. 饮水思源
 大力鸣谢: [Hux Blog](https://github.com/Huxpro/huxpro.github.io)
 
-## 注意点
+### 注意点
 + 推送代码后，Github Pages 要延迟几分钟才可能会显示出新内容。
+
+## 进阶功能
+
+### 使用 gitment 把 issue 作为留言框
++ [安装参考链接](https://imsun.net/posts/gitment-introduction/)
++ [安装调试链接](https://www.jianshu.com/p/57afa4844aaa)
 
 ## 参考资料
 + [jekyll 中文站](http://jekyllcn.com/)
@@ -50,5 +56,5 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 
 ## 发布记录
 + 05-28: 联系方式新增 wechat 
-+ 05-28: 使用 gitment 作为留言板. (有 Bug)
++ 05-28: 使用 gitment 作为留言板
 + 05-28: 在新标签页打开 QUICK Links
