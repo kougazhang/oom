@@ -54,6 +54,27 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 + 详细: [Jekyll 中的配置和模板语法](https://gist.github.com/biezhi/f88be58ef4ae0f3741bb36ab8daa53c5)
 + 有重点: [using.md](https://github.com/moi-mo/UMaize/blob/master/using.md)
 
+摘录 [Jekyll 代码块展示](https://blog.cotes.info/posts/jekyll-code-snippet/) 对特殊代码处理
+Markdown 解析代码块时，如遇到 Liquid 的源码，由于转义字符 { 及 }，会使用得 Liquid 的部分不被渲染。举个例子，假设源代码是：
+
+```liquid
+<p>{% if site.data.showAuthor %}Author:{{ site.data.author }}{% endif %}</p>
+```
+那么 Jekyll 编译后的 HTML 结果是：
+
+<p></p>
+可见 Liquid 部分（{% if %}...{% endif %}）已经丢失了。为此，Jekyll 提供了一种优雅的解决方法：用标签{% raw %} 与{% endraw %} 包围含转义字符代码段即可:
+
+{% raw %}
+```liquid
+<p>{% if site.data.showAuthor %}Author: {{ site.data.author }}{% endif %}</p>
+```
+{% endraw %}
+输出：
+
+<p>Author: Bob</p>
+使用场景的考虑
+
 ## 发布记录
 + 05-28: 联系方式新增 wechat 
 + 05-28: 使用 gitment 作为留言板
