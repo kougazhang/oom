@@ -24,6 +24,7 @@ tags:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-标识节点">2.2 标识节点</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-启动集群">2.3 启动集群</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-集群验证">2.4 集群验证</a><br/>
+<a href="#AnsiblePlaybook"Ansible Playbook></a><br/>
 </nav>
 
 
@@ -200,5 +201,22 @@ echo "3" > /usr/local/zookeeper-cluster/data/myid
 
 <div align="center"> <img src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper-hadoop003.png"/> </div>
 
+检查 zookeeper 是否启动成功：
+{% raw %}
+```
+{{ dest }}/apache-zookeeper-3.7.0-bin/bin/zkServer.sh status
+```
+{% endraw %}
+
 ### 2.5 排查启动异常的问题
-+ 在 zookeeper 的根目录下会有 logs 文件夹, 如果启动异常可以从这里查看异常日志.
+
+#### 2.5.1 dataDir 用户权限不对
+
+dataDir 的用户权限不对，导致 zookeeper 启动后没有正常运行。
+
+debug：zookeeper 项目根目录下的 logs 文件内有 zookeeper 的启动日志。
+
+解决办法：删除 dataDir 重新启动 zookeeper。src=解决办法：删除 dataDir 重新启动 zookeeper。
+
+## Ansible Playbook
+[使用 Ansible playbook](https://github.com/kougazhang/ansible/blob/master/flink/zookeeper.yml)
