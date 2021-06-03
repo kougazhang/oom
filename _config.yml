@@ -119,3 +119,19 @@ friends: [
   href: "https://github.com/kougazhang/private/blob/master/2021/okr.md"
 },
 ]
+
+repositories: [
+{
+  title: "BigData",
+  href: "https://kougazhang.github.io/2021/05/28/bigdata/"
+},
+{
+  title: "Frontend",
+  href: "https://kougazhang.github.io/2021/05/28/frontend/"
+},
+{
+  title: "Golang",
+  href: "https://kougazhang.github.io/2021/05/28/golang/"
+},
+
+]

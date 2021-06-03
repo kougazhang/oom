@@ -1,0 +1,15 @@
+{% comment %}
+    @param {boolean} bottom - bottom will render <hr> 
+{% endcomment %}
+
+{% if site.repositories %}
+<section>
+	<hr>
+	<h5>Repositories</h5>
+	<ul class="list-group">
+	  {% for repository in site.repositories %}
+	  <li class="list-group-item hidden-border"><a href="{{repository.href}}" target="_blank">{{repository.title}}</a></li>
+	  {% endfor %}
+	</ul>
+</section>
+{% endif %}

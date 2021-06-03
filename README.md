@@ -40,6 +40,19 @@ Github Pages 默认支持 Jekyll, 其他静态站点生成器需要配置 Github
 ### 4. 饮水思源
 大力鸣谢: [Hux Blog](https://github.com/Huxpro/huxpro.github.io)
 
+### 5. 本地调试
+本地环境中已安装 ruby 和 bundle
+
+安装依赖：
+```shell
+bundle install 
+```
+
+本地启动 web service:
+```shell
+bundle exec jekyll serve  # alternatively, npm start
+```
+
 ### 注意点
 + 推送代码后，Github Pages 要延迟几分钟才可能会显示出新内容。
 
@@ -80,3 +93,4 @@ Markdown 解析代码块时，如遇到 Liquid 的源码，由于转义字符 { 
 + 05-28: 联系方式新增 wechat 
 + 05-28: 使用 gitment 作为留言板
 + 05-28: 在新标签页打开 QUICK Links
++ 06-03: 新增知识库(repositories)
