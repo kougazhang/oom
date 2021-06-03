@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Bootstrap 入门指南"
+title:      "Bootstrap"
 subtitle:   "Bootstrap Quick Start"
 date:       2021-06-03 19:16:00
 author:     "kgzhang"
