@@ -208,6 +208,13 @@ rename [options] expression replacement file...
   rename .htm .html *.htm 
 ```
 
+### 压缩/解压
+
+解压 `tgz`:
+```shell
+tar -xzvf xx.tgz -C <指定解压包的路径>
+```
+
 ---
 
 ## 磁盘
