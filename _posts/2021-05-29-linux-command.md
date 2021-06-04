@@ -105,6 +105,8 @@ minprocs=20000
 
 2. 跟docker 一样, 守护的进行必须前台运行.(守护的程序还不能再开子进程)
 
+---
+
 ### systemd 进程管理
 
 1. 启动/重启/停止某服务. 如果启动失败, 看输出的日志进行处理.
@@ -137,9 +139,10 @@ systemctl daemon-reload
 
 3. Centos7 使用 systemctl 添加自定义服务.
 
-   1. 配置文件目录:
+   1. 配置文件一般路径:
       + 系统服务目录: `/usr/lib/systemd/system/`
       + 用户服务目录: `/usr/lib/systemd/user/`
+      + 查看某个服务的配置文件：`systemctl cat <seriveName>`
    2. 配置文件后缀:
       + `.target` 后缀是开机级别的 unit.
       + `.service` 后缀是服务级别的 unit.
@@ -177,7 +180,7 @@ systemctl daemon-reload
 
 4. 例子
    
-   + [supervisord.service](./sample/systemd/supervisor.md)
+   + [supervisord.service](/attachment/supervisord.service)
 
 ---
 
