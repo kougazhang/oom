@@ -133,5 +133,8 @@ repositories: [
   title: "Golang",
   href: "https://kougazhang.github.io/2021/05/28/golang/"
 },
-
+{
+  title: "Linux",
+  href: "https://kougazhang.github.io/2021/06/04/linux/"
+}
 ]
