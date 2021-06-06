@@ -289,10 +289,10 @@ grep –i 'x' 文件名
 docker images|grep -E ^k.*
 ```
 
-+ 使用 -n 来指定显示匹配项相关的行.
++ 使用 -C 来显示显示前后几行
 
 ```bash
-grep -n 10 'ok' <fileName>
+grep -C 10 'ok' <fileName>
 ```
 
 + 使用 `-R` 匹配目录.
