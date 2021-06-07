@@ -91,7 +91,39 @@ supervisorctl restart <jobName>
 supervisorctl status
 ```
 
-**supervisor 常见问题**
+### supervisord.conf 常用配置
+文件路径：`/etc/supervisord.conf`
+```ini
+[unix_http_server]
+file=/var/run/upyun-supervisor.sock
+
+#[inet_http_server]
+#port=127.0.0.1:9001
+#username=user
+#password=123
+
+[supervisord]
+logfile_maxbytes=10MB
+logfile_backups=3
+loglevel=info
+nodaemon=false
+minfds=1024
+minprocs=200
+pidfile=/var/run/supervisord.pid
+logfile=/disk/ssd1/logs/supervisor/supervisord.log
+childlogdir=/disk/ssd1/logs/supervisor
+
+[supervisorctl]
+serverurl=unix:///var/run/supervisor.sock
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+[include]
+files = /etc/supervisor.d/*.conf
+```
+
+### supervisor 常见问题
 
 1. too many files open
 
@@ -140,7 +172,7 @@ systemctl daemon-reload
 3. Centos7 使用 systemctl 添加自定义服务.
 
    1. 配置文件一般路径:
-      + 系统服务目录: `/usr/lib/systemd/system/`
+      + 系统服务目录: `/usr/lib/systemd/system/`，经测试放在系统服务目录下才会生效。
       + 用户服务目录: `/usr/lib/systemd/user/`
       + 查看某个服务的配置文件：`systemctl cat <seriveName>`
    2. 配置文件后缀:
@@ -176,7 +208,12 @@ systemctl daemon-reload
    WantedBy=multi-user.target
    ```
 
-   修改完配置后, 需要重启 systemctl 服务.
+   修改完配置后, 需要重启 systemctl 服务：
+   ```shell
+   systemctl daemon-reload
+   systemctl enable <serviceName>
+   systemctl start <serviceName>
+   ```
 
 4. 例子
 
@@ -481,3 +518,12 @@ crontab的命令构成为 时间+动作，其时间有分、时、日、月、�
     + 排查时间配置是否正确, 可以找个在线网站校验一下.
     + `ps -ef|grep cron` , 排查 crontab 程序是否正常运行.
     + `/sbin/service cron start`, centos6 启动 crontab
+
+## 包管理 yum
+
+### 安装 epel-release
+ EPEL (Extra Packages for Enterprise Linux)是基于Fedora的一个项目，为“红帽系”的操作系统提供额外的软件包，适用于RHEL、CentOS和Scientific Linux.
+```shell
+yum install epel-release
+```
+yum 官方提供的包不全，所以必须先安装 `epel-release`，才能找到常用的软件。
