@@ -219,10 +219,15 @@ systemctl daemon-reload
 
 部署 supervisord 程序，使用 systemd 托管。
 
+前提：supervisord 已经安全成功。
+
 首先配置如下文件, [源文件可以从这里获取](https://github.com/kougazhang/linux/tree/master/supervisor)：
 + supervisord.service, 把该文件放置到 `/usr/lib/systemd/system/supervisord.service` 目录下
 + supervisord, 把该文件放置到 `/etc/rc.d/init.d/` 目录下
+    + 该文件中 `exec` 的值应该等于 `which supervisord` 的值
 + supervisord.conf，把该文件放到 `/etc` 目录下
+
+使用 ansible 部署可以参考 [此链接](https://github.com/kougazhang/ansible/tree/master/supervisor)
 
 执行命令：
 ```shell 
