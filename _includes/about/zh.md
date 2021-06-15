@@ -23,4 +23,4 @@ CDN 和日志处理
     - [实操笔记：为 NSQ 配置监控服务的心路历程](https://mp.weixin.qq.com/s/u3PTw3ZBQ5afMK7FrJan8Q)
 
 ##### 开源项目
-+ [知乎浏览助手](https://greasyfork.org/en/scripts/400790-%E7%9F%A5%E4%B9%8E%E6%B5%8F%E8%A7%88%E5%8A%A9%E6%89%8B)
++ [知乎浏览助手](https://github.com/kougazhang/zhihuHelper)
