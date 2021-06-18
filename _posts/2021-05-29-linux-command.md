@@ -69,6 +69,13 @@ curl --location --request POST address \
 --header 'Content-Type: application/json' \
 --data 'json格式的参数'
 ```
+
+### wget
++ 指定文件的下载目录
+```shell
+wget -P 目录 网址
+```
+
 ---
 
 ## 进程
