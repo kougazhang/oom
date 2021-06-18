@@ -116,6 +116,9 @@ nohup 命令 > log 位置 2&>1 &
 ### supervisor 进程守护
 
 ```bash
+// 更新所有配置, 不会重启应用
+supervisorctl update
+
 // 更新该 job 关于 supervisor 的配置
 supervisorctl update <jobName>
 
@@ -124,6 +127,9 @@ supervisorctl restart <jobName>
 
 // 查看该 job 的状态
 supervisorctl status
+
+// 重启所有应用
+supervisorctl reload
 ```
 
 ### supervisord.conf 常用配置
