@@ -23,6 +23,18 @@ tags:
 + [资源管理](#资源管理)
 + [时间](#时间)
 
+## ssh
+
+### 生成密钥对
+```
+ssh-keygen
+```
+
+### 把公钥拷贝到目标机器
+```
+ssh-copy-id <userName>@<ip>
+``` 
+
 ## 用户
 
 ### 切换为 root 用户
@@ -551,7 +563,7 @@ dpkg 是 Debian 的包管理工具，dpkg 是管理安装本地包。
 # 安装
 dpkg installl -i xx.dep
 # 卸载
-dpkg -r xx.dep
+dpkg -r <serviceName>
 # 删除配置
-dpkg --purge xx.dep
+dpkg --purge <serviceName>
 ```
