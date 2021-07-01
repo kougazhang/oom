@@ -471,6 +471,18 @@ date -d "20210316 -1 days" +"%Y-%m-%d"
 // 2021-03-15
 ```
 
+其他例子：
+```shell
+// 当前时间减 1 day
+date --date="-1 day"
+
+// 当前时间减 1 year
+date --date="-1 year"
+
+// 当前时间加 1 year
+date --date="+1 year"
+```
+
 + 日期转为时间戳
 
 ```shell
