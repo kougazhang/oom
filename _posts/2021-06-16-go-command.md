@@ -29,7 +29,23 @@ go build -trimpath
 ```shell
 go build -ldflags=<版本信息>
 ```
-例子：
+
+代码部分：
+```go
+var (
+	printVersion = flag.Bool("version", false, "print version")
+	version      string
+	built        string
+)
+
+if *printVersion {
+		fmt.Println("version: ", version)
+		fmt.Println("built: ", built)
+		os.Exit(0)
+	}
+```
+
+编译时赋值：
 ```shell 
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -ldflags "-X main.version=$(gitHash) -X main.built=$(built) " -trimpath -o filex/share/check ./jobs/check
 ```
