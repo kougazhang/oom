@@ -77,9 +77,9 @@ usermod -a -G 用户组 用户
 + hostname -I, 显示机器的内网 IP.
 
 ### curl
-+ 指定 DNS 服务器
++ 使用代理访问
 ```bash
-curl http://xxx -x 指定DNS服务器 -vo /dev/null
+curl http://xxx -x [PROTOCOL://]HOST[:PORT] -vo /dev/null
 ```
 + 发送 POST 请求
 ```bash
@@ -90,6 +90,10 @@ curl --location --request POST address \
 + 显示 response header
 ```bash
 curl -I <url>
+```
++ 查看详细信息
+```bash 
+curl -v <url>
 ```
 
 ### wget

@@ -29,6 +29,11 @@ go build -trimpath
 ```shell
 go build -ldflags=<版本信息>
 ```
+例子：
+```shell 
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -ldflags "-X main.version=$(gitHash) -X main.built=$(built) " -trimpath -o filex/share/check ./jobs/check
+```
+[Makefile 打包 FileX](https://gist.github.com/kougazhang/704a4afaa62f0962be4fd58d1ff87e73)
 
 ### 指定二进制文件存放位置
 ```shell 
