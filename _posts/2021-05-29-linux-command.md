@@ -338,8 +338,12 @@ rename [options] expression replacement file...
 ### 压缩/解压
 
 解压 `tgz`:
+- `-C` 的作用是改变当前目录。当解压时使用 `-C` 能够指定解压文件的目录，当压缩时使用 `-C` 能够指定打包文件的根目录。
 ```shell
-tar -xzvf xx.tgz -C <指定解压包的路径>
+// 解压
+tar -xzvf xx.tgz -C <当前目录>
+// 压缩
+tar -cvf xx.tar -C <当前目录> <压缩目录>
 ```
 
 ---
