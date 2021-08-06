@@ -316,6 +316,11 @@ systemctl start supervisord
 # -exec rm -f {} \;, 表示查找到后执行的动作
 find $YouPath -type f -mtime +10 -exec rm -f {} \;
 ```
++ 查找含某特征的目录
+```
+# type d -name "2021-0$loop-*", 表示查找目录
+for loop in `seq 4 7`;do find /data -type d -name "2021-0$loop-*" -exec rm -rv {} \;;done
+```
 
 ## 文件处理
 
