@@ -106,6 +106,11 @@ wget -P 目录 网址
 
 ## 进程
 
+### 查看进程的启动时间
+```shell
+ps -eo pid,lstart|grep <PID>
+```
+
 ### `&` 的作用
 
 终端执行的程序是 shell 进程的子进程. 
