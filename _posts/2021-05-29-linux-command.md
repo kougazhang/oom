@@ -364,6 +364,11 @@ tar -cvf xx.tar -C <当前目录> <压缩目录>
 + iostat -x 1, 查看磁盘当前的读写情况.
 + iostat -m, 以 mb 为单位进行显示.
 
+### du 查找大文件
+```shell 
+du -h <dir> --max-depth=1 | sort -hr | head -n 10
+```
+
 ---
 
 ## 文本处理
