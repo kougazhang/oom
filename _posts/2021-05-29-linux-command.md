@@ -83,9 +83,9 @@ curl http://xxx -x [PROTOCOL://]HOST[:PORT] -vo /dev/null
 ```
 + 发送 POST 请求
 ```bash
-curl --location --request POST address \
+curl --location -X POST address \
 --header 'Content-Type: application/json' \
---data 'json格式的参数'
+--data/-d 'json格式的参数'
 ```
 + 显示 response header
 ```bash
