@@ -70,6 +70,7 @@ files = /etc/supervisor.d/*.conf
 # job,rawlog,upload 这三个 program 属于 <groupName>
 # 它们可以写到不同文件中.
 [group:<groupName>]
+# programs 中的程序都必须存在
 programs=job,rawlog,upload
 
 [program:job]
