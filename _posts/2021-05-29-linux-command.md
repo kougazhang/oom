@@ -76,6 +76,16 @@ usermod -a -G 用户组 用户
 + hostname, 显示机器的主机名
 + hostname -I, 显示机器的内网 IP.
 
+### dig: 从 DNS 服务器查看域名解析
+安装 dig 工具:
+```
+yum install -y bind-utils
+```
+```
+$ dig baidu.com
+```
+
+
 ### curl
 + 使用代理访问
 ```bash
