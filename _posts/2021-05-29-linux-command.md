@@ -87,6 +87,9 @@ $ dig baidu.com
 
 
 ### curl
++ 使用代理 -x, --proxy <[protocol://][user:password@]proxyhost[:port]>
++ 指定请求方法：-X, --request <command>
+
 + 使用代理访问
 ```bash
 curl http://xxx -x [PROTOCOL://]HOST[:PORT] -vo /dev/null
